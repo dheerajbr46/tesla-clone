@@ -1,6 +1,11 @@
 package com.dheerajbr46.tesla_clone_backend.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Car {
+    @Id
     private Long id;
     private String name;
     private double price;
